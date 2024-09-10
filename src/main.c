@@ -180,11 +180,9 @@ int main(void) {
     start_gen[ARRAY_SIZE/2] = 1; // set the middle one to 1
 
 
-
     SetTraceLogLevel(LOG_ERROR);
     SetTargetFPS(60);
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Elementary Cellular Automaton");
-
 
 
     while (!WindowShouldClose()) {
