@@ -1,1 +1,6 @@
 src/out
+src/raylib
+src/emsdk
+src/game.html
+src/game.wasm
+src/game.js
